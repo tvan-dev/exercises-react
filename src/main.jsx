@@ -3,7 +3,8 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 // import App from './App.jsx'
 import Todo from './Todo.jsx'
-import Content from './UseEffect.jsx'
+// import Content from './UseEffect.jsx'
+import Content from './UseEffect1.jsx'
 
 
 
