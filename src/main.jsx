@@ -5,7 +5,8 @@ import './index.css'
 import Todo from './Todo.jsx'
 // import Content from './UseEffect.jsx'
 // import Content from './UseEffect1.jsx'
-import Content from './UseEffect2.jsx'
+// import Content from './UseEffect2.jsx'
+import Content from './Timer.jsx'
 
 
 
