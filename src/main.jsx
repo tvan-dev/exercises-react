@@ -6,8 +6,8 @@ import Todo from './Todo.jsx'
 // import Content from './UseEffect.jsx'
 // import Content from './UseEffect1.jsx'
 // import Content from './UseEffect2.jsx'
-import Content from './Timer.jsx'
-
+// import Content from './Timer.jsx'
+import Content from './Avatar.jsx'
 
 
 createRoot(document.getElementById('root')).render(
