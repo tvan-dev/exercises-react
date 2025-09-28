@@ -7,13 +7,16 @@ import Todo from './Todo.jsx'
 // import Content from './UseEffect1.jsx'
 // import Content from './UseEffect2.jsx'
 // import Content from './Timer.jsx'
-import Content from './Avatar.jsx'
+// import Content from './Avatar.jsx'
+import Content from './UseRef.jsx'
 
 
 createRoot(document.getElementById('root')).render(
-  <StrictMode>
+  // <StrictMode>
+    <>
     <h1>Hello world!</h1>
     <Content />
     {/* <Todo/> */}
-  </StrictMode>,
+    </>
+  // </StrictMode>,
 )
