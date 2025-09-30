@@ -8,7 +8,9 @@ import Todo from './Todo.jsx'
 // import Content from './UseEffect2.jsx'
 // import Content from './Timer.jsx'
 // import Content from './Avatar.jsx'
-import Content from './UseRef.jsx'
+// import Content from './UseRef.jsx'
+import Content from './MemoHOC.jsx'
+// import Content from './useCallback.jsx'
 
 
 createRoot(document.getElementById('root')).render(
