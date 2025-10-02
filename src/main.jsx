@@ -12,8 +12,8 @@ import './index.css'
 // import Content from './MemoHOC.jsx'
 // import Content from './useCallback.jsx'
 // import Content from './UseMemo.jsx'
-import Content from './TodoVersion1.jsx'
-// import Content from './UseReducer.jsx'
+// import Content from './TodoVersion1.jsx'
+import Content from './UseReducer.jsx'
 
 
 createRoot(document.getElementById('root')).render(
