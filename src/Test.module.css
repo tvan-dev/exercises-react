@@ -1,0 +1,36 @@
+
+.block {
+    background-color: green;
+}
+
+.primary {
+    border-radius: 10px;
+}
+
+.secondary {
+    padding: 10px;
+    border: solid 1px #fff;
+}
+
+.myButton{
+    padding: 10px;
+    background-color: #c5ea33ff
+}
+/* composing- class, keyword: composes, thừa kế css từ class khác */
+/* viết class có dấu - này hết sức bình thường, nhưng sẽ gặp lỗi nếu truyền vào {style.composing-class} vì JS mặc định - là toán từ trừ */
+/* truyền vào theo dạng {styles["composing-class"]} or chuyển qua  camelCase */
+.composing-class {
+    composes: secondary;
+    padding: 10px 12px;
+    background-color: blue;
+}
+
+/* .myHeader sẽ trở thành một class có phạm vi toàn cục (global) 
+tức là nó không bị CSS Modules biến đổi tên (ví dụ như myHeader__abc123), 
+mà sẽ giữ nguyên là .myHeader. 
+- không cần import, chỉ cần className = "myHeader
+- không nên lạm dụng trong module, mất tính chất cơ bản của module*/
+
+:global(.myHeader) {
+    background-color: orange;
+}
